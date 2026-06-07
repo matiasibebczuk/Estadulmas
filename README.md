@@ -1,6 +1,6 @@
 # Estadulmas
 
-Dashboard deportivo mobile first para cargar y consultar estadísticas oficiales de Sulma FC.
+Dashboard deportivo mobile first para cargar y consultar estadisticas oficiales de Sulma FC.
 
 ## Stack
 
@@ -12,9 +12,9 @@ Dashboard deportivo mobile first para cargar y consultar estadísticas oficiales
 
 ## Funcionalidades
 
-- Login con contraseña fija: `Tucasospollo07`
+- Login con contrasena fija: `Tucasospollo07`
 - Dashboard con PJ, Victorias, Empates, Derrotas, GF y GC
-- Últimos partidos
+- Ultimos partidos
 - Alta de partidos con jugadores ilimitados
 - Vista individual de partido
 - Ranking de goleadores y asistidores
@@ -41,7 +41,7 @@ SESSION_SECRET=change-this-long-random-secret
 4. Copiar `Project URL` en `NEXT_PUBLIC_SUPABASE_URL`.
 5. Copiar `service_role` en `SUPABASE_SERVICE_ROLE_KEY`.
 
-Las tablas tienen RLS activado. El cliente anónimo no puede leer ni escribir directamente; la app opera desde servidor después del login.
+Las tablas tienen RLS activado. El cliente anonimo no puede leer ni escribir directamente; la app opera desde servidor despues del login.
 
 ## Desarrollo local
 
@@ -52,7 +52,7 @@ npm run dev
 
 Abrir `http://localhost:3000`.
 
-## Producción en Vercel
+## Produccion en Vercel
 
 1. Subir el repositorio a GitHub.
 2. Importar el proyecto en Vercel.
@@ -67,5 +67,5 @@ Abrir `http://localhost:3000`.
 
 - `app/`: rutas de Next.js
 - `components/`: UI reutilizable
-- `lib/`: autenticación, Supabase, datos y formatos
-- `supabase/schema.sql`: SQL completo con tablas, índices y RLS policies
+- `lib/`: autenticacion, Supabase, datos y formatos
+- `supabase/schema.sql`: SQL completo con tablas, indices y RLS policies
